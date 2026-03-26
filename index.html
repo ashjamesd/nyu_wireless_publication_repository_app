@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full-Stack Publication Repository for NYU Wireless</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Libre+Baskerville:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+
+    <section class="content-block">
+      <h1>Full-Stack Publication Repository for NYU Wireless</h1>
+      <p class="summary">
+        This project involved building a full-stack application to improve how publications by NYU Wireless faculty were collected, stored, and displayed on the research center website. The goal was to replace a manual submission process with a more automated system that would keep the publication database more complete and more current.
+      </p>
+    </section>
+
+    <section class="content-block">
+      <h2>Automating Publication Collection</h2>
+      <p>
+        Before this application was developed, professors had to manually submit their papers and the associated publication details through a form on the NYU Wireless website. This process was time-consuming and difficult to maintain consistently, which meant papers could be missed and the publication database could fall behind.
+      </p>
+      <p>
+        To improve this workflow, the application was designed to scrape Google Scholar for papers published by NYU Wireless faculty. This reduced the reliance on manual entry and created a more reliable method for keeping the repository aligned with current research output.
+      </p>
+    </section>
+
+<section class="content-block">
+  <h2>Organizing Research by Category</h2>
+  <p>
+    A key part of this project was organizing publications into research categories, a new structure that had recently been introduced to the NYU Wireless website. Because publications collected from Google Scholar did not automatically include this classification, an additional workflow was built into the application.
+  </p>
+  <p>
+    When a new publication was added to the database, professors were automatically notified and asked to classify their paper into one of the six research categories. This helped ensure that new publications were both captured automatically and properly organized within the research center’s evolving content structure.
+  </p>
+  <p>
+    Once categorized, the publications were stored in a database and delivered to the front end of the NYU Wireless website through a Flask application. This created a more maintainable and structured repository while supporting the research center’s broader effort to organize work by focus area.
+  </p>
+</section>
+
+    <section class="content-block link-section">
+      <h2 class="link-header">Explore the Tool</h2>
+      <p>
+        <a class="project-link" href="https://nyupublication-frosty-lake-3743.fly.dev/library" target="_blank" rel="noopener noreferrer">
+          View the publication repository on the NYU Wireless website
+        </a>
+      </p>
+    </section>
+
+    <section class="content-block tech-section">
+      <h2 class="tech-header">Technologies Used</h2>
+
+      <div class="tech-tags">
+        <div class="tech-tag">HTML</div>
+        <div class="tech-tag">CSS</div>
+        <div class="tech-tag">JavaScript</div>
+        <div class="tech-tag">Python</div>
+        <div class="tech-tag">Flask</div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
